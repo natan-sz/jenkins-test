@@ -3,9 +3,9 @@ pipeline {
         docker { image 'node:16.13.1-alpine' }
     }
     stages {
-        stage('Build') {
+        stage('Cum') {
             steps {
-                echo 'Building..'
+                echo 'Cumming...'
             }
         }
         stage('Test') {
