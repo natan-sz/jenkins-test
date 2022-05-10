@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-				pwd
+				bash pwd
             }
         }
         stage('Test') {
